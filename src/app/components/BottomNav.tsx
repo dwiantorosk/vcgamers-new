@@ -1,5 +1,3 @@
-"use client";
-
 export default function BottomNav () {    
     return(  
           <nav className="fixed bottom-0 left-1/2 transform -translate-x-1/2 bg-white shadow-inner flex justify-around items-center py-2 text-sm h-[60px] w-full max-w-sm">
