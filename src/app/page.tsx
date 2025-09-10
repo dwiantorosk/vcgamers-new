@@ -71,7 +71,7 @@ export default function Home() {
             <div className="max-w-sm mt-4">
               <div className="grid grid-cols-4 gap-4 !mt-3 !mb-3 !pb-3">
                 {games[activeTab].map((game) => (
-                  <div key={games.id} className="text-center flex flex-col items-center">
+                  <div key={game.id} className="text-center flex flex-col items-center">
                     <img
                       src={game.image}
                       alt={game.name}
