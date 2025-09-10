@@ -43,7 +43,7 @@ export default function Home() {
               <h3 className="font-bold text-gray-800">
                 ⚡ Gercep{" "}
                 <p className="text-sm text-gray-500 !pl-6">
-                  Lebih Cepat Lebih Mudah!
+                  Lebih Cepat Lebih Mudah
                 </p>
               </h3>
               <button className="text-purple-600 text-sm">Lihat Semua</button>
