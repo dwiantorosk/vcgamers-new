@@ -2,6 +2,7 @@
 import Banner from "./components/Banner";
 import React, { useState } from "react";
 import Footer from "./components/Footer";
+import BottomNav from "./components/BottomNav";
 
 export default function Home() {
   const [activeTab, setActiveTab] = useState("Top Up Game");
@@ -85,29 +86,7 @@ export default function Home() {
 
           <Footer />
 
-          {/* Bottom Navigation */}
-          <nav className="fixed bottom-0 left-1/2 transform -translate-x-1/2 bg-white shadow-inner flex justify-around items-center py-2 text-sm h-[60px] w-full max-w-sm">
-            <div className="flex flex-col items-center">
-              <span className="text-xl">🏠</span>
-              <span className="text-sm">Home</span>
-            </div>
-            <div className="flex flex-col items-center">
-              <span className="text-xl">🔥</span>
-              <span className="text-sm">Promo</span>
-            </div>
-            <div className="flex flex-col items-center bg-purple-600 rounded-full !p-2 !-mt-5">
-              <span className="text-xl">⚡</span>
-              <span className="text-sm !text-white">Gercep</span>
-            </div>
-            <div className="flex flex-col items-center">
-              <span className="text-xl">📜</span>
-              <span className="text-sm">Transaksi</span>
-            </div>
-            <div className="flex flex-col items-center">
-              <span className="text-xl">👤</span>
-              <span className="text-sm">Akun</span>
-            </div>
-          </nav>
+         <BottomNav />
         </div>
       </main>
     </>
