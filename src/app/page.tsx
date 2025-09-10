@@ -56,7 +56,7 @@ export default function Home() {
                 <button
                   key={tab}
                   onClick={() => setActiveTab(tab)}
-                  className={`pb-1 ${
+                  className={`cursor-pointer pb-1 ${
                     activeTab === tab
                       ? "text-purple-600 font-bold border-b-2 border-purple-600"
                       : "text-gray-600"
@@ -69,9 +69,9 @@ export default function Home() {
 
             {/* Game List */}
             <div className="max-w-sm mt-4">
-              <div className="grid grid-cols-4 gap-4 !mt-3 !mb-3">
+              <div className="grid grid-cols-4 gap-4 !mt-3 !mb-3 !pb-3">
                 {games[activeTab].map((game) => (
-                  <div key={game.id} className="text-center flex flex-col items-center">
+                  <div key={games.id} className="text-center flex flex-col items-center">
                     <img
                       src={game.image}
                       alt={game.name}
