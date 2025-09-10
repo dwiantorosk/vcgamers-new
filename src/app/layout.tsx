@@ -45,7 +45,6 @@ export default function RootLayout({
       <body>
         <Navbar />
         {children}
-         {/* Schema Markup */}
       <Script
         id="schema-website"
         type="application/ld+json"

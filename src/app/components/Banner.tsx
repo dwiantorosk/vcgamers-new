@@ -6,7 +6,7 @@ import Autoplay from "embla-carousel-autoplay";
 export default function Banner() {
   const [emblaRef] = useEmblaCarousel(
     { loop: true },
-    [Autoplay({ delay: 3000 })] // autoplay setiap 3 detik
+    [Autoplay({ delay: 3000 })]
   );
 
   const banners = [
